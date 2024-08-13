@@ -1,0 +1,3959 @@
+{
+  "fontColor": "#000000",
+  "highlightColor": "#00ffff",
+  "showSelectionColor": true,
+  "searchLayers": [
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Zoo/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "19132328935-layer-6",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Zoo/FeatureServer/",
+      "isMapServer": false,
+      "title": "UK_Ireland_Zoo",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields"
+          },
+          {
+            "type": "attachments",
+            "displayType": "auto"
+          }
+        ],
+        "showAttachments": true,
+        "fieldInfos": [
+          {
+            "fieldName": "ObjectId",
+            "isEditable": false,
+            "label": "ObjectId",
+            "visible": false
+          },
+          {
+            "fieldName": "name",
+            "isEditable": true,
+            "label": "name",
+            "visible": true
+          },
+          {
+            "fieldName": "F_id",
+            "isEditable": true,
+            "label": "@id",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_city",
+            "isEditable": true,
+            "label": "addr:city",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_country",
+            "isEditable": true,
+            "label": "addr:country",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housename",
+            "isEditable": true,
+            "label": "addr:housename",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housenumber",
+            "isEditable": true,
+            "label": "addr:housenumber",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_place",
+            "isEditable": true,
+            "label": "addr:place",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_postcode",
+            "isEditable": true,
+            "label": "addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_street",
+            "isEditable": true,
+            "label": "addr:street",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_village",
+            "isEditable": true,
+            "label": "addr:village",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name",
+            "isEditable": true,
+            "label": "alt_name",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name1",
+            "isEditable": true,
+            "label": "alt_name1",
+            "visible": true
+          },
+          {
+            "fieldName": "attraction",
+            "isEditable": true,
+            "label": "attraction",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_email",
+            "isEditable": true,
+            "label": "contact:email",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_facebook",
+            "isEditable": true,
+            "label": "contact:facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_instagram",
+            "isEditable": true,
+            "label": "contact:instagram",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_phone",
+            "isEditable": true,
+            "label": "contact:phone",
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "isEditable": true,
+            "label": "description",
+            "visible": true
+          },
+          {
+            "fieldName": "email",
+            "isEditable": true,
+            "label": "email",
+            "visible": true
+          },
+          {
+            "fieldName": "fee",
+            "isEditable": true,
+            "label": "fee",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_authority",
+            "isEditable": true,
+            "label": "fhrs:authority",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_local_authority_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:local_authority_id",
+            "visible": true
+          },
+          {
+            "fieldName": "fixme",
+            "isEditable": true,
+            "label": "fixme",
+            "visible": true
+          },
+          {
+            "fieldName": "min_age",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "min_age",
+            "visible": true
+          },
+          {
+            "fieldName": "note",
+            "isEditable": true,
+            "label": "note",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours",
+            "isEditable": true,
+            "label": "opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_covid19",
+            "isEditable": true,
+            "label": "opening_hours:covid19",
+            "visible": true
+          },
+          {
+            "fieldName": "operator",
+            "isEditable": true,
+            "label": "operator",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_type",
+            "isEditable": true,
+            "label": "operator:type",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_gift_card",
+            "isEditable": true,
+            "label": "payment:gift_card",
+            "visible": true
+          },
+          {
+            "fieldName": "phone",
+            "isEditable": true,
+            "label": "phone",
+            "visible": true
+          },
+          {
+            "fieldName": "reservation",
+            "isEditable": true,
+            "label": "reservation",
+            "visible": true
+          },
+          {
+            "fieldName": "source",
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          {
+            "fieldName": "tourism",
+            "isEditable": true,
+            "label": "tourism",
+            "visible": true
+          },
+          {
+            "fieldName": "website",
+            "isEditable": true,
+            "label": "website",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair",
+            "isEditable": true,
+            "label": "wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "wikidata",
+            "isEditable": true,
+            "label": "wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "wikipedia",
+            "isEditable": true,
+            "label": "wikipedia",
+            "visible": true
+          },
+          {
+            "fieldName": "zoo",
+            "isEditable": true,
+            "label": "zoo",
+            "visible": true
+          }
+        ],
+        "title": "UK_Ireland_Zoo: {name}"
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "type": "esriPMS",
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "contentType": "image/png",
+          "imageData": "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",
+          "url": "https://static.arcgis.com/images/Symbols/Emergency-Management/Horse-Police.png",
+          "height": 15,
+          "width": 15
+        }
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Nightclub/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "191322c02a6-layer-5",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Nightclub/FeatureServer/",
+      "isMapServer": false,
+      "title": "UK_Ireland_Nightclub",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields"
+          },
+          {
+            "type": "attachments",
+            "displayType": "auto"
+          }
+        ],
+        "showAttachments": true,
+        "fieldInfos": [
+          {
+            "fieldName": "ObjectId",
+            "isEditable": false,
+            "label": "ObjectId",
+            "visible": false
+          },
+          {
+            "fieldName": "name",
+            "isEditable": true,
+            "label": "name",
+            "visible": true
+          },
+          {
+            "fieldName": "F_id",
+            "isEditable": true,
+            "label": "@id",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_city",
+            "isEditable": true,
+            "label": "addr:city",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_city_en",
+            "isEditable": true,
+            "label": "addr:city:en",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_country",
+            "isEditable": true,
+            "label": "addr:country",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_county",
+            "isEditable": true,
+            "label": "addr:county",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_district",
+            "isEditable": true,
+            "label": "addr:district",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_floor",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "addr:floor",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housename",
+            "isEditable": true,
+            "label": "addr:housename",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housenumber",
+            "isEditable": true,
+            "label": "addr:housenumber",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_parentstreet",
+            "isEditable": true,
+            "label": "addr:parentstreet",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_place",
+            "isEditable": true,
+            "label": "addr:place",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_postcode",
+            "isEditable": true,
+            "label": "addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_street",
+            "isEditable": true,
+            "label": "addr:street",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_suburb",
+            "isEditable": true,
+            "label": "addr:suburb",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_terrace",
+            "isEditable": true,
+            "label": "addr:terrace",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_unit",
+            "isEditable": true,
+            "label": "addr:unit",
+            "visible": true
+          },
+          {
+            "fieldName": "air_conditioning",
+            "isEditable": true,
+            "label": "air_conditioning",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name",
+            "isEditable": true,
+            "label": "alt_name",
+            "visible": true
+          },
+          {
+            "fieldName": "amenity",
+            "isEditable": true,
+            "label": "amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "attraction",
+            "isEditable": true,
+            "label": "attraction",
+            "visible": true
+          },
+          {
+            "fieldName": "bar",
+            "isEditable": true,
+            "label": "bar",
+            "visible": true
+          },
+          {
+            "fieldName": "bouncers",
+            "isEditable": true,
+            "label": "bouncers",
+            "visible": true
+          },
+          {
+            "fieldName": "brand",
+            "isEditable": true,
+            "label": "brand",
+            "visible": true
+          },
+          {
+            "fieldName": "brand_wikidata",
+            "isEditable": true,
+            "label": "brand:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "building",
+            "isEditable": true,
+            "label": "building",
+            "visible": true
+          },
+          {
+            "fieldName": "capacity",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "capacity",
+            "visible": true
+          },
+          {
+            "fieldName": "capacity_level0",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "capacity:level0",
+            "visible": true
+          },
+          {
+            "fieldName": "capacity_level1",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "capacity:level1",
+            "visible": true
+          },
+          {
+            "fieldName": "capacity_level2",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "capacity:level2",
+            "visible": true
+          },
+          {
+            "fieldName": "check_date",
+            "isEditable": true,
+            "label": "check_date",
+            "visible": true
+          },
+          {
+            "fieldName": "check_date_opening_hours",
+            "isEditable": true,
+            "label": "check_date:opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "closed",
+            "isEditable": true,
+            "label": "closed",
+            "visible": true
+          },
+          {
+            "fieldName": "club",
+            "isEditable": true,
+            "label": "club",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_email",
+            "isEditable": true,
+            "label": "contact:email",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_facebook",
+            "isEditable": true,
+            "label": "contact:facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_instagram",
+            "isEditable": true,
+            "label": "contact:instagram",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_phone",
+            "isEditable": true,
+            "label": "contact:phone",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_twitter",
+            "isEditable": true,
+            "label": "contact:twitter",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_website",
+            "isEditable": true,
+            "label": "contact:website",
+            "visible": true
+          },
+          {
+            "fieldName": "created_by",
+            "isEditable": true,
+            "label": "created_by",
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "isEditable": true,
+            "label": "description",
+            "visible": true
+          },
+          {
+            "fieldName": "diet_vegetarian",
+            "isEditable": true,
+            "label": "diet:vegetarian",
+            "visible": true
+          },
+          {
+            "fieldName": "disused_amenity",
+            "isEditable": true,
+            "label": "disused:amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "disused_fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "disused:fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "email",
+            "isEditable": true,
+            "label": "email",
+            "visible": true
+          },
+          {
+            "fieldName": "entrance",
+            "isEditable": true,
+            "label": "entrance",
+            "visible": true
+          },
+          {
+            "fieldName": "events_venue",
+            "isEditable": true,
+            "label": "events_venue",
+            "visible": true
+          },
+          {
+            "fieldName": "facebook",
+            "isEditable": true,
+            "label": "facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "fee",
+            "isEditable": true,
+            "label": "fee",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_authority",
+            "isEditable": true,
+            "label": "fhrs:authority",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_confidence_management",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:confidence_management",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_hygiene",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:hygiene",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_inspectiondate",
+            "isEditable": true,
+            "label": "fhrs:inspectiondate",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_local_authority_id",
+            "isEditable": true,
+            "label": "fhrs:local_authority_id",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_rating",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:rating",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_structural",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:structural",
+            "visible": true
+          },
+          {
+            "fieldName": "fixme",
+            "isEditable": true,
+            "label": "fixme",
+            "visible": true
+          },
+          {
+            "fieldName": "food",
+            "isEditable": true,
+            "label": "food",
+            "visible": true
+          },
+          {
+            "fieldName": "image",
+            "isEditable": true,
+            "label": "image",
+            "visible": true
+          },
+          {
+            "fieldName": "internet_access_fee",
+            "isEditable": true,
+            "label": "internet_access:fee",
+            "visible": true
+          },
+          {
+            "fieldName": "layer",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "layer",
+            "visible": true
+          },
+          {
+            "fieldName": "level_",
+            "isEditable": true,
+            "label": "level",
+            "visible": true
+          },
+          {
+            "fieldName": "lgbtq",
+            "isEditable": true,
+            "label": "lgbtq",
+            "visible": true
+          },
+          {
+            "fieldName": "lgbtq_women",
+            "isEditable": true,
+            "label": "lgbtq:women",
+            "visible": true
+          },
+          {
+            "fieldName": "live_music",
+            "isEditable": true,
+            "label": "live_music",
+            "visible": true
+          },
+          {
+            "fieldName": "live_music_venue",
+            "isEditable": true,
+            "label": "live_music_venue",
+            "visible": true
+          },
+          {
+            "fieldName": "loc_name",
+            "isEditable": true,
+            "label": "loc_name",
+            "visible": true
+          },
+          {
+            "fieldName": "menu_url",
+            "isEditable": true,
+            "label": "menu:url",
+            "visible": true
+          },
+          {
+            "fieldName": "min_age",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "min_age",
+            "visible": true
+          },
+          {
+            "fieldName": "min_age_female",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "min_age:female",
+            "visible": true
+          },
+          {
+            "fieldName": "min_age_male",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "min_age:male",
+            "visible": true
+          },
+          {
+            "fieldName": "mobile",
+            "isEditable": true,
+            "label": "mobile",
+            "visible": true
+          },
+          {
+            "fieldName": "music",
+            "isEditable": true,
+            "label": "music",
+            "visible": true
+          },
+          {
+            "fieldName": "music_venue",
+            "isEditable": true,
+            "label": "music_venue",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ca",
+            "isEditable": true,
+            "label": "name:ca",
+            "visible": true
+          },
+          {
+            "fieldName": "name_cs",
+            "isEditable": true,
+            "label": "name:cs",
+            "visible": true
+          },
+          {
+            "fieldName": "name_cy",
+            "isEditable": true,
+            "label": "name:cy",
+            "visible": true
+          },
+          {
+            "fieldName": "name_de",
+            "isEditable": true,
+            "label": "name:de",
+            "visible": true
+          },
+          {
+            "fieldName": "name_en",
+            "isEditable": true,
+            "label": "name:en",
+            "visible": true
+          },
+          {
+            "fieldName": "name_es",
+            "isEditable": true,
+            "label": "name:es",
+            "visible": true
+          },
+          {
+            "fieldName": "name_eu",
+            "isEditable": true,
+            "label": "name:eu",
+            "visible": true
+          },
+          {
+            "fieldName": "name_fi",
+            "isEditable": true,
+            "label": "name:fi",
+            "visible": true
+          },
+          {
+            "fieldName": "name_fr",
+            "isEditable": true,
+            "label": "name:fr",
+            "visible": true
+          },
+          {
+            "fieldName": "name_gl",
+            "isEditable": true,
+            "label": "name:gl",
+            "visible": true
+          },
+          {
+            "fieldName": "name_hr",
+            "isEditable": true,
+            "label": "name:hr",
+            "visible": true
+          },
+          {
+            "fieldName": "name_id",
+            "isEditable": true,
+            "label": "name:id",
+            "visible": true
+          },
+          {
+            "fieldName": "name_is",
+            "isEditable": true,
+            "label": "name:is",
+            "visible": true
+          },
+          {
+            "fieldName": "name_it",
+            "isEditable": true,
+            "label": "name:it",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ja",
+            "isEditable": true,
+            "label": "name:ja",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ko",
+            "isEditable": true,
+            "label": "name:ko",
+            "visible": true
+          },
+          {
+            "fieldName": "name_lb",
+            "isEditable": true,
+            "label": "name:lb",
+            "visible": true
+          },
+          {
+            "fieldName": "name_nl",
+            "isEditable": true,
+            "label": "name:nl",
+            "visible": true
+          },
+          {
+            "fieldName": "name_no",
+            "isEditable": true,
+            "label": "name:no",
+            "visible": true
+          },
+          {
+            "fieldName": "name_old",
+            "isEditable": true,
+            "label": "name:old",
+            "visible": true
+          },
+          {
+            "fieldName": "name_pl",
+            "isEditable": true,
+            "label": "name:pl",
+            "visible": true
+          },
+          {
+            "fieldName": "name_pt",
+            "isEditable": true,
+            "label": "name:pt",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ru",
+            "isEditable": true,
+            "label": "name:ru",
+            "visible": true
+          },
+          {
+            "fieldName": "name_sh",
+            "isEditable": true,
+            "label": "name:sh",
+            "visible": true
+          },
+          {
+            "fieldName": "name_sv",
+            "isEditable": true,
+            "label": "name:sv",
+            "visible": true
+          },
+          {
+            "fieldName": "name_uk",
+            "isEditable": true,
+            "label": "name:uk",
+            "visible": true
+          },
+          {
+            "fieldName": "name_zh",
+            "isEditable": true,
+            "label": "name:zh",
+            "visible": true
+          },
+          {
+            "fieldName": "not_addr_postcode",
+            "isEditable": true,
+            "label": "not:addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "note",
+            "isEditable": true,
+            "label": "note",
+            "visible": true
+          },
+          {
+            "fieldName": "old_amenity",
+            "isEditable": true,
+            "label": "old_amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "old_fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "old_fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "old_name",
+            "isEditable": true,
+            "label": "old_name",
+            "visible": true
+          },
+          {
+            "fieldName": "old_name_2",
+            "isEditable": true,
+            "label": "old_name:2",
+            "visible": true
+          },
+          {
+            "fieldName": "old_website",
+            "isEditable": true,
+            "label": "old_website",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours",
+            "isEditable": true,
+            "label": "opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_covid19",
+            "isEditable": true,
+            "label": "opening_hours:covid19",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_signed",
+            "isEditable": true,
+            "label": "opening_hours:signed",
+            "visible": true
+          },
+          {
+            "fieldName": "operator",
+            "isEditable": true,
+            "label": "operator",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_wikidata",
+            "isEditable": true,
+            "label": "operator:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "outdoor_seating",
+            "isEditable": true,
+            "label": "outdoor_seating",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_american_express",
+            "isEditable": true,
+            "label": "payment:american_express",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_card",
+            "isEditable": true,
+            "label": "payment:card",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_card_minimum",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "payment:card_minimum",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_cards",
+            "isEditable": true,
+            "label": "payment:cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_cash",
+            "isEditable": true,
+            "label": "payment:cash",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_credit_cards",
+            "isEditable": true,
+            "label": "payment:credit_cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_debit_cards",
+            "isEditable": true,
+            "label": "payment:debit_cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_mastercard",
+            "isEditable": true,
+            "label": "payment:mastercard",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa",
+            "isEditable": true,
+            "label": "payment:visa",
+            "visible": true
+          },
+          {
+            "fieldName": "phone",
+            "isEditable": true,
+            "label": "phone",
+            "visible": true
+          },
+          {
+            "fieldName": "phone_1",
+            "isEditable": true,
+            "label": "phone_1",
+            "visible": true
+          },
+          {
+            "fieldName": "postal_code",
+            "isEditable": true,
+            "label": "postal_code",
+            "visible": true
+          },
+          {
+            "fieldName": "ref_FR_NAF",
+            "isEditable": true,
+            "label": "ref:FR:NAF",
+            "visible": true
+          },
+          {
+            "fieldName": "ref_FR_SIRET",
+            "isEditable": true,
+            "label": "ref:FR:SIRET",
+            "visible": true
+          },
+          {
+            "fieldName": "shop",
+            "isEditable": true,
+            "label": "shop",
+            "visible": true
+          },
+          {
+            "fieldName": "short_name",
+            "isEditable": true,
+            "label": "short_name",
+            "visible": true
+          },
+          {
+            "fieldName": "smoking",
+            "isEditable": true,
+            "label": "smoking",
+            "visible": true
+          },
+          {
+            "fieldName": "source",
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          {
+            "fieldName": "source_addr",
+            "isEditable": true,
+            "label": "source:addr",
+            "visible": true
+          },
+          {
+            "fieldName": "source_addr_postcode",
+            "isEditable": true,
+            "label": "source:addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "source_postcode",
+            "isEditable": true,
+            "label": "source:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "sport",
+            "isEditable": true,
+            "label": "sport",
+            "visible": true
+          },
+          {
+            "fieldName": "start_date",
+            "isEditable": true,
+            "label": "start_date",
+            "visible": true
+          },
+          {
+            "fieldName": "student",
+            "isEditable": true,
+            "label": "student",
+            "visible": true
+          },
+          {
+            "fieldName": "survey_date",
+            "isEditable": true,
+            "label": "survey:date",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets",
+            "isEditable": true,
+            "label": "toilets",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets_access",
+            "isEditable": true,
+            "label": "toilets:access",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets_wheelchair",
+            "isEditable": true,
+            "label": "toilets:wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "twitter",
+            "isEditable": true,
+            "label": "twitter",
+            "visible": true
+          },
+          {
+            "fieldName": "url",
+            "isEditable": true,
+            "label": "url",
+            "visible": true
+          },
+          {
+            "fieldName": "was_website",
+            "isEditable": true,
+            "label": "was:website",
+            "visible": true
+          },
+          {
+            "fieldName": "website",
+            "isEditable": true,
+            "label": "website",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair",
+            "isEditable": true,
+            "label": "wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair_description",
+            "isEditable": true,
+            "label": "wheelchair:description",
+            "visible": true
+          },
+          {
+            "fieldName": "wifi",
+            "isEditable": true,
+            "label": "wifi",
+            "visible": true
+          },
+          {
+            "fieldName": "wikidata",
+            "isEditable": true,
+            "label": "wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "wikimedia_commons",
+            "isEditable": true,
+            "label": "wikimedia_commons",
+            "visible": true
+          },
+          {
+            "fieldName": "wikipedia",
+            "isEditable": true,
+            "label": "wikipedia",
+            "visible": true
+          }
+        ],
+        "title": "UK_Ireland_Nightclub: {name}"
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "type": "esriPMS",
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "contentType": "image/png",
+          "imageData": "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",
+          "url": "https://static.arcgis.com/images/Symbols/Emergency-Management/Lost-Child.png",
+          "height": 15,
+          "width": 15
+        }
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_MusicVenue/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "191322b1a47-layer-4",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_MusicVenue/FeatureServer/",
+      "isMapServer": false,
+      "title": "UK_Ireland_MusicVenue",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields"
+          },
+          {
+            "type": "attachments",
+            "displayType": "auto"
+          }
+        ],
+        "showAttachments": true,
+        "fieldInfos": [
+          {
+            "fieldName": "ObjectId",
+            "isEditable": false,
+            "label": "ObjectId",
+            "visible": false
+          },
+          {
+            "fieldName": "name",
+            "isEditable": true,
+            "label": "name",
+            "visible": true
+          },
+          {
+            "fieldName": "F_id",
+            "isEditable": true,
+            "label": "@id",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_city",
+            "isEditable": true,
+            "label": "addr:city",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_country",
+            "isEditable": true,
+            "label": "addr:country",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housename",
+            "isEditable": true,
+            "label": "addr:housename",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housenumber",
+            "isEditable": true,
+            "label": "addr:housenumber",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_postcode",
+            "isEditable": true,
+            "label": "addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_street",
+            "isEditable": true,
+            "label": "addr:street",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name",
+            "isEditable": true,
+            "label": "alt_name",
+            "visible": true
+          },
+          {
+            "fieldName": "amenity",
+            "isEditable": true,
+            "label": "amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "check_date",
+            "isEditable": true,
+            "label": "check_date",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_facebook",
+            "isEditable": true,
+            "label": "contact:facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_instagram",
+            "isEditable": true,
+            "label": "contact:instagram",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_phone",
+            "isEditable": true,
+            "label": "contact:phone",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_twitter",
+            "isEditable": true,
+            "label": "contact:twitter",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_website",
+            "isEditable": true,
+            "label": "contact:website",
+            "visible": true
+          },
+          {
+            "fieldName": "created_by",
+            "isEditable": true,
+            "label": "created_by",
+            "visible": true
+          },
+          {
+            "fieldName": "cuisine",
+            "isEditable": true,
+            "label": "cuisine",
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "isEditable": true,
+            "label": "description",
+            "visible": true
+          },
+          {
+            "fieldName": "diet_vegan",
+            "isEditable": true,
+            "label": "diet:vegan",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "food",
+            "isEditable": true,
+            "label": "food",
+            "visible": true
+          },
+          {
+            "fieldName": "internet_access",
+            "isEditable": true,
+            "label": "internet_access",
+            "visible": true
+          },
+          {
+            "fieldName": "leisure",
+            "isEditable": true,
+            "label": "leisure",
+            "visible": true
+          },
+          {
+            "fieldName": "level_",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "level",
+            "visible": true
+          },
+          {
+            "fieldName": "live_music",
+            "isEditable": true,
+            "label": "live_music",
+            "visible": true
+          },
+          {
+            "fieldName": "music_genre",
+            "isEditable": true,
+            "label": "music_genre",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ko",
+            "isEditable": true,
+            "label": "name:ko",
+            "visible": true
+          },
+          {
+            "fieldName": "old_name",
+            "isEditable": true,
+            "label": "old_name",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours",
+            "isEditable": true,
+            "label": "opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_american_express",
+            "isEditable": true,
+            "label": "payment:american_express",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_bancomat",
+            "isEditable": true,
+            "label": "payment:bancomat",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_maestro",
+            "isEditable": true,
+            "label": "payment:maestro",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_mastercard",
+            "isEditable": true,
+            "label": "payment:mastercard",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa",
+            "isEditable": true,
+            "label": "payment:visa",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa_debit",
+            "isEditable": true,
+            "label": "payment:visa_debit",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa_electron",
+            "isEditable": true,
+            "label": "payment:visa_electron",
+            "visible": true
+          },
+          {
+            "fieldName": "phone",
+            "isEditable": true,
+            "label": "phone",
+            "visible": true
+          },
+          {
+            "fieldName": "postal_code",
+            "isEditable": true,
+            "label": "postal_code",
+            "visible": true
+          },
+          {
+            "fieldName": "source",
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          {
+            "fieldName": "website",
+            "isEditable": true,
+            "label": "website",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair",
+            "isEditable": true,
+            "label": "wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "wikidata",
+            "isEditable": true,
+            "label": "wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "wikipedia",
+            "isEditable": true,
+            "label": "wikipedia",
+            "visible": true
+          }
+        ],
+        "title": "UK_Ireland_MusicVenue: {name}"
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "type": "esriPMS",
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "contentType": "image/png",
+          "imageData": "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",
+          "url": "https://static.arcgis.com/images/Symbols/Emergency-Management/Community-Events-Sound-Stage.png",
+          "height": 15,
+          "width": 15
+        }
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Museum/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "1913229e7ce-layer-3",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Museum/FeatureServer/",
+      "isMapServer": false,
+      "title": "UK_Ireland_Museum",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields"
+          },
+          {
+            "type": "attachments",
+            "displayType": "auto"
+          }
+        ],
+        "showAttachments": true,
+        "fieldInfos": [
+          {
+            "fieldName": "ObjectId",
+            "isEditable": false,
+            "label": "ObjectId",
+            "visible": false
+          },
+          {
+            "fieldName": "name",
+            "isEditable": true,
+            "label": "name",
+            "visible": true
+          },
+          {
+            "fieldName": "F_id",
+            "isEditable": true,
+            "label": "@id",
+            "visible": true
+          },
+          {
+            "fieldName": "access",
+            "isEditable": true,
+            "label": "access",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_city",
+            "isEditable": true,
+            "label": "addr:city",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_city_en",
+            "isEditable": true,
+            "label": "addr:city:en",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_country",
+            "isEditable": true,
+            "label": "addr:country",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_county",
+            "isEditable": true,
+            "label": "addr:county",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_hamlet",
+            "isEditable": true,
+            "label": "addr:hamlet",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housename",
+            "isEditable": true,
+            "label": "addr:housename",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housenumber",
+            "isEditable": true,
+            "label": "addr:housenumber",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_parentstreet",
+            "isEditable": true,
+            "label": "addr:parentstreet",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_place",
+            "isEditable": true,
+            "label": "addr:place",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_postcode",
+            "isEditable": true,
+            "label": "addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_street",
+            "isEditable": true,
+            "label": "addr:street",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_substreet",
+            "isEditable": true,
+            "label": "addr:substreet",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_suburb",
+            "isEditable": true,
+            "label": "addr:suburb",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_town",
+            "isEditable": true,
+            "label": "addr:town",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_unit",
+            "isEditable": true,
+            "label": "addr:unit",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_village",
+            "isEditable": true,
+            "label": "addr:village",
+            "visible": true
+          },
+          {
+            "fieldName": "address",
+            "isEditable": true,
+            "label": "address",
+            "visible": true
+          },
+          {
+            "fieldName": "admission",
+            "isEditable": true,
+            "label": "admission",
+            "visible": true
+          },
+          {
+            "fieldName": "air_conditioning",
+            "isEditable": true,
+            "label": "air_conditioning",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name",
+            "isEditable": true,
+            "label": "alt_name",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name_cy",
+            "isEditable": true,
+            "label": "alt_name:cy",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name_en",
+            "isEditable": true,
+            "label": "alt_name:en",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name_es",
+            "isEditable": true,
+            "label": "alt_name:es",
+            "visible": true
+          },
+          {
+            "fieldName": "amenity",
+            "isEditable": true,
+            "label": "amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "archaeological_site",
+            "isEditable": true,
+            "label": "archaeological_site",
+            "visible": true
+          },
+          {
+            "fieldName": "attraction",
+            "isEditable": true,
+            "label": "attraction",
+            "visible": true
+          },
+          {
+            "fieldName": "booth",
+            "isEditable": true,
+            "label": "booth",
+            "visible": true
+          },
+          {
+            "fieldName": "building",
+            "isEditable": true,
+            "label": "building",
+            "visible": true
+          },
+          {
+            "fieldName": "building_floor",
+            "isEditable": true,
+            "label": "building:floor",
+            "visible": true
+          },
+          {
+            "fieldName": "Built",
+            "isEditable": true,
+            "label": "Built",
+            "visible": true
+          },
+          {
+            "fieldName": "bunker_type",
+            "isEditable": true,
+            "label": "bunker_type",
+            "visible": true
+          },
+          {
+            "fieldName": "cafe",
+            "isEditable": true,
+            "label": "cafe",
+            "visible": true
+          },
+          {
+            "fieldName": "castle_type",
+            "isEditable": true,
+            "label": "castle_type",
+            "visible": true
+          },
+          {
+            "fieldName": "changing_table",
+            "isEditable": true,
+            "label": "changing_table",
+            "visible": true
+          },
+          {
+            "fieldName": "changing_table_fee",
+            "isEditable": true,
+            "label": "changing_table:fee",
+            "visible": true
+          },
+          {
+            "fieldName": "charge",
+            "isEditable": true,
+            "label": "charge",
+            "visible": true
+          },
+          {
+            "fieldName": "charge_conditional",
+            "isEditable": true,
+            "label": "charge:conditional",
+            "visible": true
+          },
+          {
+            "fieldName": "check_date",
+            "isEditable": true,
+            "label": "check_date",
+            "visible": true
+          },
+          {
+            "fieldName": "check_date_opening_hours",
+            "isEditable": true,
+            "label": "check_date:opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "colour",
+            "isEditable": true,
+            "label": "colour",
+            "visible": true
+          },
+          {
+            "fieldName": "comment",
+            "isEditable": true,
+            "label": "comment",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_email",
+            "isEditable": true,
+            "label": "contact:email",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_facebook",
+            "isEditable": true,
+            "label": "contact:facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_flickr",
+            "isEditable": true,
+            "label": "contact:flickr",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_instagram",
+            "isEditable": true,
+            "label": "contact:instagram",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_phone",
+            "isEditable": true,
+            "label": "contact:phone",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_pinterest",
+            "isEditable": true,
+            "label": "contact:pinterest",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_tripadvisor",
+            "isEditable": true,
+            "label": "contact:tripadvisor",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_twitter",
+            "isEditable": true,
+            "label": "contact:twitter",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_website",
+            "isEditable": true,
+            "label": "contact:website",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_yelp",
+            "isEditable": true,
+            "label": "contact:yelp",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_youtube",
+            "isEditable": true,
+            "label": "contact:youtube",
+            "visible": true
+          },
+          {
+            "fieldName": "Cost",
+            "isEditable": true,
+            "label": "Cost",
+            "visible": true
+          },
+          {
+            "fieldName": "covered",
+            "isEditable": true,
+            "label": "covered",
+            "visible": true
+          },
+          {
+            "fieldName": "created_by",
+            "isEditable": true,
+            "label": "created_by",
+            "visible": true
+          },
+          {
+            "fieldName": "denomination",
+            "isEditable": true,
+            "label": "denomination",
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "isEditable": true,
+            "label": "description",
+            "visible": true
+          },
+          {
+            "fieldName": "description_en",
+            "isEditable": true,
+            "label": "description:en",
+            "visible": true
+          },
+          {
+            "fieldName": "designation",
+            "isEditable": true,
+            "label": "designation",
+            "visible": true
+          },
+          {
+            "fieldName": "disused_amenity",
+            "isEditable": true,
+            "label": "disused:amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "disused_fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "disused:fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "dog",
+            "isEditable": true,
+            "label": "dog",
+            "visible": true
+          },
+          {
+            "fieldName": "dogs",
+            "isEditable": true,
+            "label": "dogs",
+            "visible": true
+          },
+          {
+            "fieldName": "ele",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "ele",
+            "visible": true
+          },
+          {
+            "fieldName": "email",
+            "isEditable": true,
+            "label": "email",
+            "visible": true
+          },
+          {
+            "fieldName": "end_date",
+            "isEditable": true,
+            "label": "end_date",
+            "visible": true
+          },
+          {
+            "fieldName": "entrance",
+            "isEditable": true,
+            "label": "entrance",
+            "visible": true
+          },
+          {
+            "fieldName": "facebook",
+            "isEditable": true,
+            "label": "facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "fax",
+            "isEditable": true,
+            "label": "fax",
+            "visible": true
+          },
+          {
+            "fieldName": "fee",
+            "isEditable": true,
+            "label": "fee",
+            "visible": true
+          },
+          {
+            "fieldName": "fee_conditional",
+            "isEditable": true,
+            "label": "fee:conditional",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_authority",
+            "isEditable": true,
+            "label": "fhrs:authority",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_confidence_management",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:confidence_management",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_hygiene",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:hygiene",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_local_authority_id",
+            "isEditable": true,
+            "label": "fhrs:local_authority_id",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_rating",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:rating",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_structural",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:structural",
+            "visible": true
+          },
+          {
+            "fieldName": "fixme",
+            "isEditable": true,
+            "label": "fixme",
+            "visible": true
+          },
+          {
+            "fieldName": "flickr",
+            "isEditable": true,
+            "label": "flickr",
+            "visible": true
+          },
+          {
+            "fieldName": "fortification_type",
+            "isEditable": true,
+            "label": "fortification_type",
+            "visible": true
+          },
+          {
+            "fieldName": "HE_ref",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "HE_ref",
+            "visible": true
+          },
+          {
+            "fieldName": "heritage",
+            "isEditable": true,
+            "label": "heritage",
+            "visible": true
+          },
+          {
+            "fieldName": "heritage_name",
+            "isEditable": true,
+            "label": "heritage:name",
+            "visible": true
+          },
+          {
+            "fieldName": "heritage_operator",
+            "isEditable": true,
+            "label": "heritage:operator",
+            "visible": true
+          },
+          {
+            "fieldName": "heritage_ref",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "heritage:ref",
+            "visible": true
+          },
+          {
+            "fieldName": "historic",
+            "isEditable": true,
+            "label": "historic",
+            "visible": true
+          },
+          {
+            "fieldName": "historic_civilization",
+            "isEditable": true,
+            "label": "historic:civilization",
+            "visible": true
+          },
+          {
+            "fieldName": "historic_period",
+            "isEditable": true,
+            "label": "historic:period",
+            "visible": true
+          },
+          {
+            "fieldName": "historic_place",
+            "isEditable": true,
+            "label": "historic:place",
+            "visible": true
+          },
+          {
+            "fieldName": "image",
+            "isEditable": true,
+            "label": "image",
+            "visible": true
+          },
+          {
+            "fieldName": "industrial",
+            "isEditable": true,
+            "label": "industrial",
+            "visible": true
+          },
+          {
+            "fieldName": "information",
+            "isEditable": true,
+            "label": "information",
+            "visible": true
+          },
+          {
+            "fieldName": "internet_access",
+            "isEditable": true,
+            "label": "internet_access",
+            "visible": true
+          },
+          {
+            "fieldName": "internet_access_fee",
+            "isEditable": true,
+            "label": "internet_access:fee",
+            "visible": true
+          },
+          {
+            "fieldName": "layer",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "layer",
+            "visible": true
+          },
+          {
+            "fieldName": "level_",
+            "isEditable": true,
+            "label": "level",
+            "visible": true
+          },
+          {
+            "fieldName": "listed_status",
+            "isEditable": true,
+            "label": "listed_status",
+            "visible": true
+          },
+          {
+            "fieldName": "loc_name",
+            "isEditable": true,
+            "label": "loc_name",
+            "visible": true
+          },
+          {
+            "fieldName": "location",
+            "isEditable": true,
+            "label": "location",
+            "visible": true
+          },
+          {
+            "fieldName": "man_made",
+            "isEditable": true,
+            "label": "man_made",
+            "visible": true
+          },
+          {
+            "fieldName": "mapillary",
+            "isEditable": true,
+            "label": "mapillary",
+            "visible": true
+          },
+          {
+            "fieldName": "military",
+            "isEditable": true,
+            "label": "military",
+            "visible": true
+          },
+          {
+            "fieldName": "mobile",
+            "isEditable": true,
+            "label": "mobile",
+            "visible": true
+          },
+          {
+            "fieldName": "museum",
+            "isEditable": true,
+            "label": "museum",
+            "visible": true
+          },
+          {
+            "fieldName": "museum_type",
+            "isEditable": true,
+            "label": "museum_type",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ar",
+            "isEditable": true,
+            "label": "name:ar",
+            "visible": true
+          },
+          {
+            "fieldName": "name_cy",
+            "isEditable": true,
+            "label": "name:cy",
+            "visible": true
+          },
+          {
+            "fieldName": "name_de",
+            "isEditable": true,
+            "label": "name:de",
+            "visible": true
+          },
+          {
+            "fieldName": "name_en",
+            "isEditable": true,
+            "label": "name:en",
+            "visible": true
+          },
+          {
+            "fieldName": "name_es",
+            "isEditable": true,
+            "label": "name:es",
+            "visible": true
+          },
+          {
+            "fieldName": "name_etymology_wikidata",
+            "isEditable": true,
+            "label": "name:etymology:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "name_fa",
+            "isEditable": true,
+            "label": "name:fa",
+            "visible": true
+          },
+          {
+            "fieldName": "name_fr",
+            "isEditable": true,
+            "label": "name:fr",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ga",
+            "isEditable": true,
+            "label": "name:ga",
+            "visible": true
+          },
+          {
+            "fieldName": "name_gd",
+            "isEditable": true,
+            "label": "name:gd",
+            "visible": true
+          },
+          {
+            "fieldName": "name_gv",
+            "isEditable": true,
+            "label": "name:gv",
+            "visible": true
+          },
+          {
+            "fieldName": "name_he",
+            "isEditable": true,
+            "label": "name:he",
+            "visible": true
+          },
+          {
+            "fieldName": "name_hu",
+            "isEditable": true,
+            "label": "name:hu",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ja",
+            "isEditable": true,
+            "label": "name:ja",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ka",
+            "isEditable": true,
+            "label": "name:ka",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ko",
+            "isEditable": true,
+            "label": "name:ko",
+            "visible": true
+          },
+          {
+            "fieldName": "name_lt",
+            "isEditable": true,
+            "label": "name:lt",
+            "visible": true
+          },
+          {
+            "fieldName": "name_pt",
+            "isEditable": true,
+            "label": "name:pt",
+            "visible": true
+          },
+          {
+            "fieldName": "name_ru",
+            "isEditable": true,
+            "label": "name:ru",
+            "visible": true
+          },
+          {
+            "fieldName": "name_zh",
+            "isEditable": true,
+            "label": "name:zh",
+            "visible": true
+          },
+          {
+            "fieldName": "nohousenumber",
+            "isEditable": true,
+            "label": "nohousenumber",
+            "visible": true
+          },
+          {
+            "fieldName": "not_addr_postcode",
+            "isEditable": true,
+            "label": "not:addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "note",
+            "isEditable": true,
+            "label": "note",
+            "visible": true
+          },
+          {
+            "fieldName": "office",
+            "isEditable": true,
+            "label": "office",
+            "visible": true
+          },
+          {
+            "fieldName": "official_name",
+            "isEditable": true,
+            "label": "official_name",
+            "visible": true
+          },
+          {
+            "fieldName": "old_fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "old_fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "old_name",
+            "isEditable": true,
+            "label": "old_name",
+            "visible": true
+          },
+          {
+            "fieldName": "old_phone",
+            "isEditable": true,
+            "label": "old_phone",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours",
+            "isEditable": true,
+            "label": "opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_covid19",
+            "isEditable": true,
+            "label": "opening_hours:covid19",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_signed",
+            "isEditable": true,
+            "label": "opening_hours:signed",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_url",
+            "isEditable": true,
+            "label": "opening_hours:url",
+            "visible": true
+          },
+          {
+            "fieldName": "operator",
+            "isEditable": true,
+            "label": "operator",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_type_1",
+            "isEditable": true,
+            "label": "operator_type",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_facebook",
+            "isEditable": true,
+            "label": "operator:facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_instagram",
+            "isEditable": true,
+            "label": "operator:instagram",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_twitter",
+            "isEditable": true,
+            "label": "operator:twitter",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_type",
+            "isEditable": true,
+            "label": "operator:type",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_website",
+            "isEditable": true,
+            "label": "operator:website",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_wikidata",
+            "isEditable": true,
+            "label": "operator:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_cash",
+            "isEditable": true,
+            "label": "payment:cash",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_contactless",
+            "isEditable": true,
+            "label": "payment:contactless",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_credit_cards",
+            "isEditable": true,
+            "label": "payment:credit_cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_debit_cards",
+            "isEditable": true,
+            "label": "payment:debit_cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_mastercard",
+            "isEditable": true,
+            "label": "payment:mastercard",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_none",
+            "isEditable": true,
+            "label": "payment:none",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa",
+            "isEditable": true,
+            "label": "payment:visa",
+            "visible": true
+          },
+          {
+            "fieldName": "pets",
+            "isEditable": true,
+            "label": "pets",
+            "visible": true
+          },
+          {
+            "fieldName": "phone",
+            "isEditable": true,
+            "label": "phone",
+            "visible": true
+          },
+          {
+            "fieldName": "phone_US",
+            "isEditable": true,
+            "label": "phone:US",
+            "visible": true
+          },
+          {
+            "fieldName": "polling_station",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "polling_station",
+            "visible": true
+          },
+          {
+            "fieldName": "postal_code",
+            "isEditable": true,
+            "label": "postal_code",
+            "visible": true
+          },
+          {
+            "fieldName": "railway",
+            "isEditable": true,
+            "label": "railway",
+            "visible": true
+          },
+          {
+            "fieldName": "real_ale",
+            "isEditable": true,
+            "label": "real_ale",
+            "visible": true
+          },
+          {
+            "fieldName": "ref",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "ref",
+            "visible": true
+          },
+          {
+            "fieldName": "ref_FR_museofile",
+            "isEditable": true,
+            "label": "ref:FR:museofile",
+            "visible": true
+          },
+          {
+            "fieldName": "related_wikidata",
+            "isEditable": true,
+            "label": "related:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "related_wikipedia",
+            "isEditable": true,
+            "label": "related:wikipedia",
+            "visible": true
+          },
+          {
+            "fieldName": "religion",
+            "isEditable": true,
+            "label": "religion",
+            "visible": true
+          },
+          {
+            "fieldName": "reservation",
+            "isEditable": true,
+            "label": "reservation",
+            "visible": true
+          },
+          {
+            "fieldName": "roof_shape",
+            "isEditable": true,
+            "label": "roof:shape",
+            "visible": true
+          },
+          {
+            "fieldName": "seasonal",
+            "isEditable": true,
+            "label": "seasonal",
+            "visible": true
+          },
+          {
+            "fieldName": "shop",
+            "isEditable": true,
+            "label": "shop",
+            "visible": true
+          },
+          {
+            "fieldName": "short_name",
+            "isEditable": true,
+            "label": "short_name",
+            "visible": true
+          },
+          {
+            "fieldName": "source",
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          {
+            "fieldName": "source_ref",
+            "isEditable": true,
+            "label": "source_ref",
+            "visible": true
+          },
+          {
+            "fieldName": "source_addr",
+            "isEditable": true,
+            "label": "source:addr",
+            "visible": true
+          },
+          {
+            "fieldName": "source_addr_postcode",
+            "isEditable": true,
+            "label": "source:addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "source_description",
+            "isEditable": true,
+            "label": "source:description",
+            "visible": true
+          },
+          {
+            "fieldName": "source_name",
+            "isEditable": true,
+            "label": "source:name",
+            "visible": true
+          },
+          {
+            "fieldName": "source_postcode",
+            "isEditable": true,
+            "label": "source:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "stars",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "stars",
+            "visible": true
+          },
+          {
+            "fieldName": "start_date",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "start_date",
+            "visible": true
+          },
+          {
+            "fieldName": "status",
+            "isEditable": true,
+            "label": "status",
+            "visible": true
+          },
+          {
+            "fieldName": "subject",
+            "isEditable": true,
+            "label": "subject",
+            "visible": true
+          },
+          {
+            "fieldName": "subject_wikidata",
+            "isEditable": true,
+            "label": "subject:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "subject_wikipedia",
+            "isEditable": true,
+            "label": "subject:wikipedia",
+            "visible": true
+          },
+          {
+            "fieldName": "survey_date",
+            "isEditable": true,
+            "label": "survey:date",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets",
+            "isEditable": true,
+            "label": "toilets",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets_access",
+            "isEditable": true,
+            "label": "toilets:access",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets_wheelchair",
+            "isEditable": true,
+            "label": "toilets:wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "tourism",
+            "isEditable": true,
+            "label": "tourism",
+            "visible": true
+          },
+          {
+            "fieldName": "twitter",
+            "isEditable": true,
+            "label": "twitter",
+            "visible": true
+          },
+          {
+            "fieldName": "url",
+            "isEditable": true,
+            "label": "url",
+            "visible": true
+          },
+          {
+            "fieldName": "usage",
+            "isEditable": true,
+            "label": "usage",
+            "visible": true
+          },
+          {
+            "fieldName": "website",
+            "isEditable": true,
+            "label": "website",
+            "visible": true
+          },
+          {
+            "fieldName": "website_booking",
+            "isEditable": true,
+            "label": "website:booking",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair",
+            "isEditable": true,
+            "label": "wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair_description",
+            "isEditable": true,
+            "label": "wheelchair:description",
+            "visible": true
+          },
+          {
+            "fieldName": "wikidata",
+            "isEditable": true,
+            "label": "wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "wikimedia_commons",
+            "isEditable": true,
+            "label": "wikimedia_commons",
+            "visible": true
+          },
+          {
+            "fieldName": "wikipedia",
+            "isEditable": true,
+            "label": "wikipedia",
+            "visible": true
+          },
+          {
+            "fieldName": "year_built",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "year_built",
+            "visible": true
+          }
+        ],
+        "title": "UK_Ireland_Museum: {name}"
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "type": "esriPMS",
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "contentType": "image/png",
+          "imageData": "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",
+          "url": "https://static.arcgis.com/images/Symbols/Emergency-Management/Law-Enforcement-Citizen-Complaint.png",
+          "height": 15,
+          "width": 15
+        }
+      }
+    },
+    {
+      "url": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Cinemas/FeatureServer/0",
+      "geometryType": "esriGeometryPoint",
+      "id": "1913228e870-layer-2",
+      "layerId": "0",
+      "baseURL": "https://services7.arcgis.com/AHJOWTX3sFcnmA9U/arcgis/rest/services/UK_Ireland_Cinemas/FeatureServer/",
+      "isMapServer": false,
+      "title": "UK_Ireland_Cinemas",
+      "popupInfo": {
+        "popupElements": [
+          {
+            "type": "fields"
+          },
+          {
+            "type": "attachments",
+            "displayType": "auto"
+          }
+        ],
+        "showAttachments": true,
+        "fieldInfos": [
+          {
+            "fieldName": "ObjectId",
+            "isEditable": false,
+            "label": "ObjectId",
+            "visible": false
+          },
+          {
+            "fieldName": "name",
+            "isEditable": true,
+            "label": "name",
+            "visible": true
+          },
+          {
+            "fieldName": "F_id",
+            "isEditable": true,
+            "label": "@id",
+            "visible": true
+          },
+          {
+            "fieldName": "access",
+            "isEditable": true,
+            "label": "access",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_city",
+            "isEditable": true,
+            "label": "addr:city",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_country",
+            "isEditable": true,
+            "label": "addr:country",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_county",
+            "isEditable": true,
+            "label": "addr:county",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_floor",
+            "isEditable": true,
+            "label": "addr:floor",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housename",
+            "isEditable": true,
+            "label": "addr:housename",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_housenumber",
+            "isEditable": true,
+            "label": "addr:housenumber",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_parentstreet",
+            "isEditable": true,
+            "label": "addr:parentstreet",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_place",
+            "isEditable": true,
+            "label": "addr:place",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_postcode",
+            "isEditable": true,
+            "label": "addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_province",
+            "isEditable": true,
+            "label": "addr:province",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_street",
+            "isEditable": true,
+            "label": "addr:street",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_substreet",
+            "isEditable": true,
+            "label": "addr:substreet",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_suburb",
+            "isEditable": true,
+            "label": "addr:suburb",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_town",
+            "isEditable": true,
+            "label": "addr:town",
+            "visible": true
+          },
+          {
+            "fieldName": "addr_unit",
+            "isEditable": true,
+            "label": "addr:unit",
+            "visible": true
+          },
+          {
+            "fieldName": "air_conditioning",
+            "isEditable": true,
+            "label": "air_conditioning",
+            "visible": true
+          },
+          {
+            "fieldName": "alt_name",
+            "isEditable": true,
+            "label": "alt_name",
+            "visible": true
+          },
+          {
+            "fieldName": "amenity",
+            "isEditable": true,
+            "label": "amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "amenity_1",
+            "isEditable": true,
+            "label": "amenity_1",
+            "visible": true
+          },
+          {
+            "fieldName": "architect",
+            "isEditable": true,
+            "label": "architect",
+            "visible": true
+          },
+          {
+            "fieldName": "bar",
+            "isEditable": true,
+            "label": "bar",
+            "visible": true
+          },
+          {
+            "fieldName": "branch",
+            "isEditable": true,
+            "label": "branch",
+            "visible": true
+          },
+          {
+            "fieldName": "brand",
+            "isEditable": true,
+            "label": "brand",
+            "visible": true
+          },
+          {
+            "fieldName": "brand_wikidata",
+            "isEditable": true,
+            "label": "brand:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "brand_wikipedia",
+            "isEditable": true,
+            "label": "brand:wikipedia",
+            "visible": true
+          },
+          {
+            "fieldName": "building",
+            "isEditable": true,
+            "label": "building",
+            "visible": true
+          },
+          {
+            "fieldName": "capacity",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "capacity",
+            "visible": true
+          },
+          {
+            "fieldName": "check_date",
+            "isEditable": true,
+            "label": "check_date",
+            "visible": true
+          },
+          {
+            "fieldName": "check_date_opening_hours",
+            "isEditable": true,
+            "label": "check_date:opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "cinema_3D",
+            "isEditable": true,
+            "label": "cinema:3D",
+            "visible": true
+          },
+          {
+            "fieldName": "cinema_IMAX",
+            "isEditable": true,
+            "label": "cinema:IMAX",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_email",
+            "isEditable": true,
+            "label": "contact:email",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_facebook",
+            "isEditable": true,
+            "label": "contact:facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_instagram",
+            "isEditable": true,
+            "label": "contact:instagram",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_phone",
+            "isEditable": true,
+            "label": "contact:phone",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_twitter",
+            "isEditable": true,
+            "label": "contact:twitter",
+            "visible": true
+          },
+          {
+            "fieldName": "contact_website",
+            "isEditable": true,
+            "label": "contact:website",
+            "visible": true
+          },
+          {
+            "fieldName": "created_by",
+            "isEditable": true,
+            "label": "created_by",
+            "visible": true
+          },
+          {
+            "fieldName": "description",
+            "isEditable": true,
+            "label": "description",
+            "visible": true
+          },
+          {
+            "fieldName": "designation",
+            "isEditable": true,
+            "label": "designation",
+            "visible": true
+          },
+          {
+            "fieldName": "diet_vegan",
+            "isEditable": true,
+            "label": "diet:vegan",
+            "visible": true
+          },
+          {
+            "fieldName": "diet_vegetarian",
+            "isEditable": true,
+            "label": "diet:vegetarian",
+            "visible": true
+          },
+          {
+            "fieldName": "drink",
+            "isEditable": true,
+            "label": "drink",
+            "visible": true
+          },
+          {
+            "fieldName": "drive_in",
+            "isEditable": true,
+            "label": "drive_in",
+            "visible": true
+          },
+          {
+            "fieldName": "drive_through",
+            "isEditable": true,
+            "label": "drive_through",
+            "visible": true
+          },
+          {
+            "fieldName": "email",
+            "isEditable": true,
+            "label": "email",
+            "visible": true
+          },
+          {
+            "fieldName": "entrance",
+            "isEditable": true,
+            "label": "entrance",
+            "visible": true
+          },
+          {
+            "fieldName": "facebook",
+            "isEditable": true,
+            "label": "facebook",
+            "visible": true
+          },
+          {
+            "fieldName": "fee",
+            "isEditable": true,
+            "label": "fee",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_authority",
+            "isEditable": true,
+            "label": "fhrs:authority",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_confidence_management",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:confidence_management",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_hygiene",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:hygiene",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_id",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:id",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_inspectiondate",
+            "isEditable": true,
+            "label": "fhrs:inspectiondate",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_local_authority_id",
+            "isEditable": true,
+            "label": "fhrs:local_authority_id",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_rating",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:rating",
+            "visible": true
+          },
+          {
+            "fieldName": "fhrs_structural",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "fhrs:structural",
+            "visible": true
+          },
+          {
+            "fieldName": "fixme",
+            "isEditable": true,
+            "label": "fixme",
+            "visible": true
+          },
+          {
+            "fieldName": "fixme_addr_1",
+            "isEditable": true,
+            "label": "fixme:addr:1",
+            "visible": true
+          },
+          {
+            "fieldName": "food",
+            "isEditable": true,
+            "label": "food",
+            "visible": true
+          },
+          {
+            "fieldName": "historic_amenity",
+            "isEditable": true,
+            "label": "historic:amenity",
+            "visible": true
+          },
+          {
+            "fieldName": "image",
+            "isEditable": true,
+            "label": "image",
+            "visible": true
+          },
+          {
+            "fieldName": "internet_access",
+            "isEditable": true,
+            "label": "internet_access",
+            "visible": true
+          },
+          {
+            "fieldName": "internet_access_fee",
+            "isEditable": true,
+            "label": "internet_access:fee",
+            "visible": true
+          },
+          {
+            "fieldName": "is_in",
+            "isEditable": true,
+            "label": "is_in",
+            "visible": true
+          },
+          {
+            "fieldName": "layer",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "layer",
+            "visible": true
+          },
+          {
+            "fieldName": "level_",
+            "isEditable": true,
+            "label": "level",
+            "visible": true
+          },
+          {
+            "fieldName": "level_ref",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "level:ref",
+            "visible": true
+          },
+          {
+            "fieldName": "name_cy",
+            "isEditable": true,
+            "label": "name:cy",
+            "visible": true
+          },
+          {
+            "fieldName": "name_en",
+            "isEditable": true,
+            "label": "name:en",
+            "visible": true
+          },
+          {
+            "fieldName": "name_zh",
+            "isEditable": true,
+            "label": "name:zh",
+            "visible": true
+          },
+          {
+            "fieldName": "not_addr_postcode",
+            "isEditable": true,
+            "label": "not:addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "note",
+            "isEditable": true,
+            "label": "note",
+            "visible": true
+          },
+          {
+            "fieldName": "old_brand",
+            "isEditable": true,
+            "label": "old_brand",
+            "visible": true
+          },
+          {
+            "fieldName": "old_brand_wikipedia",
+            "isEditable": true,
+            "label": "old_brand:wikipedia",
+            "visible": true
+          },
+          {
+            "fieldName": "old_name",
+            "isEditable": true,
+            "label": "old_name",
+            "visible": true
+          },
+          {
+            "fieldName": "old_operator",
+            "isEditable": true,
+            "label": "old_operator",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours",
+            "isEditable": true,
+            "label": "opening_hours",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_covid19",
+            "isEditable": true,
+            "label": "opening_hours:covid19",
+            "visible": true
+          },
+          {
+            "fieldName": "opening_hours_signed",
+            "isEditable": true,
+            "label": "opening_hours:signed",
+            "visible": true
+          },
+          {
+            "fieldName": "operator",
+            "isEditable": true,
+            "label": "operator",
+            "visible": true
+          },
+          {
+            "fieldName": "operator_wikidata",
+            "isEditable": true,
+            "label": "operator:wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "outdoor",
+            "isEditable": true,
+            "label": "outdoor",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_apple_pay",
+            "isEditable": true,
+            "label": "payment:apple_pay",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_cards",
+            "isEditable": true,
+            "label": "payment:cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_cash",
+            "isEditable": true,
+            "label": "payment:cash",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_coins",
+            "isEditable": true,
+            "label": "payment:coins",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_contactless",
+            "isEditable": true,
+            "label": "payment:contactless",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_credit_cards",
+            "isEditable": true,
+            "label": "payment:credit_cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_debit_cards",
+            "isEditable": true,
+            "label": "payment:debit_cards",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_maestro",
+            "isEditable": true,
+            "label": "payment:maestro",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_mastercard",
+            "isEditable": true,
+            "label": "payment:mastercard",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_notes",
+            "isEditable": true,
+            "label": "payment:notes",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_prepaid_ticket",
+            "isEditable": true,
+            "label": "payment:prepaid_ticket",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa",
+            "isEditable": true,
+            "label": "payment:visa",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa_debit",
+            "isEditable": true,
+            "label": "payment:visa_debit",
+            "visible": true
+          },
+          {
+            "fieldName": "payment_visa_electron",
+            "isEditable": true,
+            "label": "payment:visa_electron",
+            "visible": true
+          },
+          {
+            "fieldName": "phone",
+            "isEditable": true,
+            "label": "phone",
+            "visible": true
+          },
+          {
+            "fieldName": "postal_code",
+            "isEditable": true,
+            "label": "postal_code",
+            "visible": true
+          },
+          {
+            "fieldName": "screen",
+            "format": {
+              "digitSeparator": true,
+              "places": 0
+            },
+            "isEditable": true,
+            "label": "screen",
+            "visible": true
+          },
+          {
+            "fieldName": "seasonal",
+            "isEditable": true,
+            "label": "seasonal",
+            "visible": true
+          },
+          {
+            "fieldName": "shop",
+            "isEditable": true,
+            "label": "shop",
+            "visible": true
+          },
+          {
+            "fieldName": "short_name",
+            "isEditable": true,
+            "label": "short_name",
+            "visible": true
+          },
+          {
+            "fieldName": "source",
+            "isEditable": true,
+            "label": "source",
+            "visible": true
+          },
+          {
+            "fieldName": "source_addr",
+            "isEditable": true,
+            "label": "source:addr",
+            "visible": true
+          },
+          {
+            "fieldName": "source_addr_postcode",
+            "isEditable": true,
+            "label": "source:addr:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "source_phone",
+            "isEditable": true,
+            "label": "source:phone",
+            "visible": true
+          },
+          {
+            "fieldName": "source_postal_code",
+            "isEditable": true,
+            "label": "source:postal_code",
+            "visible": true
+          },
+          {
+            "fieldName": "source_postcode",
+            "isEditable": true,
+            "label": "source:postcode",
+            "visible": true
+          },
+          {
+            "fieldName": "source_url",
+            "isEditable": true,
+            "label": "source:url",
+            "visible": true
+          },
+          {
+            "fieldName": "start_date",
+            "isEditable": true,
+            "label": "start_date",
+            "visible": true
+          },
+          {
+            "fieldName": "surveillance",
+            "isEditable": true,
+            "label": "surveillance",
+            "visible": true
+          },
+          {
+            "fieldName": "survey_date",
+            "isEditable": true,
+            "label": "survey:date",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets",
+            "isEditable": true,
+            "label": "toilets",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets_access",
+            "isEditable": true,
+            "label": "toilets:access",
+            "visible": true
+          },
+          {
+            "fieldName": "toilets_wheelchair",
+            "isEditable": true,
+            "label": "toilets:wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "url",
+            "isEditable": true,
+            "label": "url",
+            "visible": true
+          },
+          {
+            "fieldName": "website",
+            "isEditable": true,
+            "label": "website",
+            "visible": true
+          },
+          {
+            "fieldName": "website_booking",
+            "isEditable": true,
+            "label": "website:booking",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair",
+            "isEditable": true,
+            "label": "wheelchair",
+            "visible": true
+          },
+          {
+            "fieldName": "wheelchair_description",
+            "isEditable": true,
+            "label": "wheelchair:description",
+            "visible": true
+          },
+          {
+            "fieldName": "wikidata",
+            "isEditable": true,
+            "label": "wikidata",
+            "visible": true
+          },
+          {
+            "fieldName": "wikimedia_commons",
+            "isEditable": true,
+            "label": "wikimedia_commons",
+            "visible": true
+          },
+          {
+            "fieldName": "wikipedia",
+            "isEditable": true,
+            "label": "wikipedia",
+            "visible": true
+          }
+        ],
+        "title": "UK_Ireland_Cinemas: {name}"
+      },
+      "renderer": {
+        "type": "simple",
+        "symbol": {
+          "type": "esriPMS",
+          "angle": 0,
+          "xoffset": 0,
+          "yoffset": 0,
+          "contentType": "image/png",
+          "imageData": "iVBORw0KGgoAAAANSUhEUgAAAHkAAAB5CAYAAAAd+o5JAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAAJcEhZcwAACxIAAAsSAdLdfvwAAApCSURBVHhe7Z3Nih1FFMf7EeYRssgDuPAB8gjzCFlm4cIPRBDBLILgQiKCESQQ8CPoQsaF4kJw0ICudAQDgoKKSERUBo2IH8j1/G6qM/d2n6qurqruqnu7/vAnzEx3na901TlV1dVNRcVO4M3Hm3PCC8LLwhvCY8PVCLb3XBXSDu2dMyIq5oYJAIEgKKdCLWipSPvIWQfeqFCRGuLcA+FF4dHNx5q78q8WjFlo5B8J0efAqFgRCuNIHKo6vBCuA25UrvCBOIzxlXFx6m44NdEXves4boM458LrjzavGocF8e0nm9V7Tzerj55pVh8/26w+fa5Z3X5hmJ8/f+967uN+2tHa96Wxo47fLa4/1DwoDhmbCa9JQAgOgfrm5Wb1/fV0pD3apX3kaPI9eIx9xtTlQRxAt0y5ozlHJU8YTxvO1wIzNZGL/IAnHTuX1Y2LwZQjXmPuW080qw+uNKsvX9Qdn4vog17op+mtEHsvGxfsL+i6pAT5omO8yneeujempu6GUxP90BN9NTu6xP697cJfe6S5ohndJeNfru44lujtO37jD+Oa3ce1S815Meqka2SXuxzcLkcE+wT/GFftJsSIQ6Fz7GVMo7vTnLXrxC6PMRv/HBqX7RZEcZIrzaj7JFMtfcyNJfZhp2Z/h7uVlInCztKIEmRfumZfYq9H6XXDuLBciJIHkj3e6ii+RcqOfX96bcRu7Nf80tL4r8yFDxQTWhOsfR57x9JjrMaPZQUahYximsJrg0qbzMhN/LEzgUYRo5Cm6HqSYKnd8xDxy8AkShmBdo3BNcDDHAo0/jWuzgNRwppFk2BoRlXqHEjI8mTdIthaB9cAh3Eg0PPW0SKQmSxNkXXXoxlQ6ceBMXqemTEzF61OVdYxOJ4DY/TpLHPdIkjNpCkHaoDTED86yqsTE4ppYFsurHVwerrq6MmWKc1eLFVoncmahvhV8zecZOMBOxo0YTWTnpa2jJt4mNCkgTSqlkusqtRxeFriX8fqVZqyShpiV6WaTS9tuTAX8bPmfyFxid8FKo2os1oshGsKVU5Dx8aDuNkwW7JVy6X56SqropIwaUB9s6Fm03noyLaPTcjGQW7kHeBeg+xC1BSonIeOXaDj372yvXxWk628tCVhxMuEzg9yExl1r6H6FJdBx9Psn2nLxbxn22ukPsVl0FFSXTUhHIZc3KuLKcg1gS6mxhwyckGzzUXLBMmpCaEbciFHOPQaCMmoU2MOGbmg2eaiI9MePtpCLuqd0UF9pgkaYmrMISMXNNtcdNTNRyaUOuQCdl72bgxdhEiNOWTkgmbbEB3bhew7POWPalcdulacGnPIyAXNtiESFy1eQnuXLX/sddUhCVfLCn9o/vOhJQGzd9k3lYPQYhYiKvyh+c+H2sIFcTQh3Yb8UZ3GjKmNK/yh+c+Hjpq5P80pv1Q3BmgN+7LCH5r/fKnFTdjfUCC/7K04xU5jVvhD858vLdOc/ZUp+WVvlouDyrRGfZkac8gA/979dnXnjXPrf+eCZpsviVM3dsLt2S/5hbogETtXnRpzyACnnzy8bpt/50LXrjF0jMtnCxbyg5p0xe7+SI05ZACeYtrm37nQtWsMiZMWP+FZ8iU/9JKumPq4ZWrMIeOfX0622ufnObApM4SWevks+ZIfekuLKdaOf/3wYtJxTZORGm1X3XLqLhv/4KdNmSG0JF9nS4/yQy+zTrkb8/fbV41J5aPtqltO2WXjl01ZMbTs5jzLsPmh88fozLpL/reWjm5X3XKKLjvF07tJS4a9FeTeBRz0rTUWwz+/OzImloluV90ydZeNHzQ5MbStL5sQ60GOLZ80/vDKweq/v0+NqeWh21W3TNllYz9+0OTE0FZGmRDPF2T4x1c3jLnz4bfPLqu6pCZyhoD92r2xLCrIP79/aMwdD609H9i64dT06daxX7s3lkUFma4qFFp7vuAJmqKbhLTr20PZhoRYBgX565f0xlIwFLFtkSX/ePSA2k4oaW9M9q21kYJFPckxSYzWXghSdd8hWfdUvUlRQc4xJmugjAl1OPeFloOLGJNzZNc2UM789O4FVU8buT6mDNz77JonoLQ6eezUYuwUbVF18hTvIJc44zU2EeP6WOSa8Vrk3DUrQJquQ0yxspZj7nqRq1Chq0Cp7AmVr9FnFap3+MsS1pNtSRdd8l93jq1dOfelwpzryYvbGUICpLXXrX1tNXXqBFKTMYY+O0MWt8erW8qQ8fL0auD33Yw4dSm42fZY+u7xWtxuzc1JCZ/al79vdu8xkzoa2nZDaCufhNvHS8gvFrXvur1/bBK1mSylRNtmCC2Zdf/UAfnlot6gIFih23q4L1WG3ULzny8tSZf6BkV9FyojNP/5UoubUH0Xqr7VmBGa/3zoGI/1w9vq+8n5oPnPh9okiPX9ZCAX1JMGMkHznw8t9bH9pAH5Yz0zJBM024YYemZIPf0nEzTbhhh0+g+QC9RzvEJmv1JjDhm5oNnmIvEIOscLyEX1RL4M0GxzMepEPiAX9ma/Qj7PlxpzyMgFzTYXLQmX39maQC6up+QWTEdtPOqU3HredcG0TGPCcV+WqSfXl0nbUzz65HogN9ZvUBRIx1M8/hsUQG7srUzBKXZyVg7TkVH3V5x8Ub8LVQ4ddXH8xzmlkfqFtwJo2Y0J477wBqSR+q3GzHSUTMQl/luNQBqqX13NRPxrmfiAab662oLv9SpCghcvKv1oW4QgHiY06WBLwmDNtqehI5ue5kvogG/pawLJ+kLXnCt14k9bNk0cTEimgQg56QqFtaxKR1e5JDwxoZgO1y4150WQmm2zUlUDHUf8hx81/wpP8b8JxbQQYYcd4fcZsiRZeUZHgOGhCcE8EIFqWQVrxh1Gx3YemLZc8oUIVmfDYA30OA4EOH5WKwZSr91SlFqzjtHDHBiDqYdvGVfngyjCDk8144Y10HYOBViIX907L+cCihiFNEVrHa3QVQcblhPgFihkFNMUXhtUZ8buET/sXIBboJhrjIYkGEvtvrF7IMFaj8Hyb5kB3oQoac26IasqS1umxF7HalLLvFn0WIjC1jq6JQvh+/5UY59jwX+TeergWIjizIypU6At93ms9hh7If6ZdyYrNcxctzUha8kuxH3pwrFjoDRqeTLbXPQcsC1TdrnLwUZvx5bZLU6+XJgLLHSzo0EzukuSFLq70sds9ENPj6RqTeyfbMG/JIixJGXOsbolYxplR2mTKeiDXh5jbkvs3c3kKhRiMLtAnaVWlzwtZKq5unPkIt/3qd0gdqbZVbmLMHvH1Dc1hsj4x0FlOD91t057tEv7vuOswuNFdM2+EIdcsL1k50ueMALC00ZwGCsJ1BC5juu5j/sDntQtGjvC3k1aAsQ5dOO8H+01ZhdE9EXv5XbLIRCHcbRF7wyTwoh+fkc4VNghTmSFax1wKUF6B8rNSSN/HVhh+QsJuwpxLu9OU4aRsE3drdM+cpBXx9lcEOczjreBZ1wkKGMz9vYe7l8HVFjH14pdQNP8D8EQE4Gth9X4AAAAAElFTkSuQmCC",
+          "url": "https://static.arcgis.com/images/Symbols/Emergency-Management/Community-Events-Ticket-Office.png",
+          "height": 15,
+          "width": 15
+        }
+      }
+    }
+  ],
+  "bufferInfo": {
+    "isVisible": false
+  },
+  "defaultBufferDistance": 5,
+  "maxBufferDistance": 15,
+  "bufferDistanceUnit": {
+    "bufferUnit": "UNIT_STATUTE_MILE",
+    "routeUnit": "MILES",
+    "distanceUnit": "miles",
+    "label": "Miles",
+    "acronym": "mi",
+    "value": "miles"
+  },
+  "zoomToFeature": false,
+  "intersectSearchedLocation": false,
+  "enableProximitySearch": true,
+  "routeService": "https://route.arcgis.com/arcgis/rest/services/World/Route/NAServer/Route_World",
+  "directionLengthUnit": {
+    "bufferUnit": "UNIT_KILOMETER",
+    "routeUnit": "KILOMETERS",
+    "distanceUnit": "kilometers",
+    "label": "Kilometers",
+    "acronym": "km",
+    "value": "kilometers"
+  },
+  "selectedSearchLayerOnly": false,
+  "isGeodesic": false,
+  "showLocationTool": true,
+  "symbols": {
+    "routeSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "graphicLocationSymbol": {
+      "angle": 0,
+      "xoffset": 0,
+      "yoffset": 12,
+      "type": "esriPMS",
+      "url": "http://static.arcgis.com/images/Symbols/Basic/RedStickpin.png",
+      "imageData": "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",
+      "contentType": "image/png",
+      "width": 22.5,
+      "height": 22.5
+    },
+    "polylineSymbol": {
+      "color": [
+        21,
+        99,
+        184,
+        255
+      ],
+      "width": 3.75,
+      "type": "esriSLS",
+      "style": "esriSLSSolid"
+    },
+    "polygonSymbol": {
+      "color": [
+        255,
+        189,
+        1,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    },
+    "bufferSymbol": {
+      "color": [
+        255,
+        0,
+        0,
+        0
+      ],
+      "outline": {
+        "color": [
+          255,
+          189,
+          1,
+          255
+        ],
+        "width": 2.25,
+        "type": "esriSLS",
+        "style": "esriSLSSolid"
+      },
+      "type": "esriSFS",
+      "style": "esriSFSSolid"
+    }
+  },
+  "maxResultCount": null,
+  "searchSourceSettings": {
+    "allPlaceholder": "",
+    "showInfoWindowOnSelect": true,
+    "sources": [
+      {
+        "url": "https://geocode.arcgis.com/arcgis/rest/services/World/GeocodeServer",
+        "name": "ArcGIS World Geocoding Service",
+        "singleLineFieldName": "SingleLine",
+        "placeholder": "Find address or place",
+        "countryCode": "",
+        "zoomScale": 50000,
+        "maxSuggestions": 6,
+        "maxResults": 6,
+        "searchInCurrentMapExtent": true,
+        "enableLocalSearch": true,
+        "localSearchMinScale": 300000,
+        "localSearchDistance": 50000,
+        "type": "locator"
+      }
+    ]
+  },
+  "attributeSymbology": [],
+  "filterSettings": {
+    "collapse": false,
+    "groupFiltersByLayer": false,
+    "expandFiltersOnLoad": false,
+    "filters": []
+  },
+  "showImageGallery": true,
+  "showFeaturesCount": true,
+  "showAllLayers": false,
+  "editorDescription": "Search for an address or locate on map",
+  "noFeatureFoundMessage": "No results found",
+  "showCurrentLocationTool": false,
+  "enableDirection": true,
+  "bufferInputOption": "slider"
+}
